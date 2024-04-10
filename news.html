@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="language.js" defer></script>
+    <script src="newslanguage.js" defer></script>
+    <title id="page-title-news">Про гру</title>
+</head>
+
+<body>
+    <header>
+        <!-- Логотип гри -->
+        <img src="logo.jpg" alt="Логотип гри" style="position: absolute; top: 8px; left: 8px; width: 120px;">
+        
+        <h1 id="news-heading">Про гру</h1>
+        <nav>
+            <ul>
+                <li><a id="home-link" href="index.html">Головна</a></li>
+                <li><a id="news-link" href="news.html">Про гру</a></li>
+                <li><a id="about-link" href="about.html">Про нас</a></li>
+            </ul>
+        </nav>
+        <!-- Перенесено блок обрання мови в правий верхній куток -->
+        <section id="language-section" style="position: absolute; top: 10px; right: 20px;">
+            <label for="language">🌐</label>
+            <select id="language" onchange="changeLanguage()">
+                <option value="uk">Українська 🇺🇦</option>
+                <option value="en">English 🇬🇧</option>
+                <option value="gag">Gagauzca 🔴⚪️🔵</option>
+                <option value="pl">Polski 🇵🇱</option>
+                <option value="bl">Беларускі ⚪️🔴⚪️</option>
+                <option value="es">Español 🇪🇸</option>
+                <option value="fr">Français 🇫🇷</option>
+                <option value="de">Deutsch 🇩🇪</option>
+                <option value="sk">Slovensky 🇸🇰</option>
+                <option value="cn">中文 🇨🇳</option>
+            </select>
+        </section>
+    </header>
+    <main>
+        <p id="news-content">"Keltainen Nola" - це покрокова настільна карткова гра з елементами DND у світі середньовічного фентезі з фантастичними расами, боріться з монстрами, здобувайте скарби і переможете! Ця гра в жанрі фентезі піти, а вже там вам зустрінуться фантастичні мешканці цього світу, і на кожному кроці потрібно бути уважним, а не то навіть добрі знайомі зазіхнуть на ваші скарби. Ви ще не бачили так багато цікавих карт. І якщо ви на все це готові - вперед, у пригоду! Партія починається з того, що ви звичайний юнак, без професій. Не засмучуйтеся, адже навіть з першого ходу ви, можливо, зможете отримати цінний предмет, можна стати магом, або злодієм, або воїном і кліриком.)</p>
+    </main>
+</body>
+
+</html>

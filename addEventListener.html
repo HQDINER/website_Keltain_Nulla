@@ -1,0 +1,52 @@
+<!-- language.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="language.js" defer></script>
+    <title>Головна</title>
+</head>
+<body>
+    <header>
+        <h1>Головна</h1>
+        <nav>
+            <ul>
+                <li><a href="#" id="uk-link">Українська</a></li>
+                <li><a href="#" id="en-link">English</a></li>
+                <li><a href="#" id="gag-link">Gagauzca</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="language-section">
+        <label for="language">Оберіть мову:</label>
+        <select id="language" onchange="changeLanguage()">
+            <option value="uk">Українська</option>
+            <option value="en">English</option>
+            <option value="gag">Gagauzca</option>
+        </select>
+    </section>
+
+    <main>
+        <p>Keltainen Nola це покрокова настільна карткова гра з елементами DND в світі середньовічного фентезі з фантастичними расами, боріться з монстрами, здобувайте скарби і виграйте! Ця гра в жанрі фентезі, а вже там вам зустрінуться і злі жителі цього світу і смішні монстрики, і на кожному кроці потрібно бути уважним, а то навіть добрі знайомі позіхають на ваші скарби. Ви ще не бачили багато цікавих карт. І якщо ви на все це готові - вперед до пригод! Партія починається з того, що ви звичайний юнак, без професій. Не засмучуйтеся, адже навіть з першого ходу ви можете отримати цінний предмет, можна стати магом, або злодієм,  воїном і кліриком.</p>
+    </main>
+
+    <script>
+        // Додаємо обробник події для посилань на зміну мови
+        document.getElementById("uk-link").addEventListener("click", function() {
+            changeLanguage('uk');
+        });
+
+        document.getElementById("en-link").addEventListener("click", function() {
+            changeLanguage('en');
+        });
+
+        document.getElementById("gag-link").addEventListener("click", function() {
+            changeLanguage('gag');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+// language.json
+
+{
+  "uk": {
+    "home": "Keltainen Nola це покрокова настільна карткова гра з елементами DND в світі середньовічного фентезі з фантастичними расами, боріться з монстрами, здобувайте скарби і виграйте! Ця гра в жанрі фентезі, а вже там вам зустрінуться і злі жителі цього світу і смішні монстрики, і на кожному кроці потрібно бути уважним, а то навіть добрі знайомі позіхають на ваші скарби. Ви ще не бачили багато цікавих карт. І якщо ви на все це готові - вперед до пригод! Партія починається з того, що ви звичайний юнак, без професій. Не засмучуйтеся, адже навіть з першого ходу ви можете отримати цінний предмет, можна стати магом, або злодієм,  воїном і кліриком.",
+    "news": "В розробці...",
+    "about": "Цей проект розробляють студенти з групи кн 31 коледжу ВСП ФКЗУДУІТЗ\\nНаші ролі у розробці проєкту:\\nPM - Алісія Асавалюк\\nData-Analyst - Едіта Матвієнко, Вусата Тамара\\nQA - Ненов Іван , Павло Серман , Слабий Артем , Фурман Микола\\nBack-end Dev - Зайков Арсеній , Олексій Скрипніченко\\nFront-End Dev - Артем Богданéнко , Олексій Скрипніченко\\nGame-Designers - Кушніренко Іван , Вусата Тамара\\nSound Designers - Богорош Микита , Артур Басюк , Олександр Муравцев\\nDesigners - Каранфілова Юлія , Кравченко Марія , Алісія Асавалюк , Жосан Максим\\nStory - Олександр Муравцев , Богорош Микита , Фурман Микола , Кушниренко Іван\\nЗ'язатися з нами:\\nЕлектронна адреса - keltainen_Nol@agmail.com\\nDiscord - https://discord.gg/MdFBWFwz",
+  },
+  "en": {
+    "home": "\"Keltainen Nola\" is a step-by-step tabletop card game with elements of DND in a medieval fantasy world with fantastical races. Battle monsters, acquire treasures, and win! This game falls into the fantasy genre, where you'll encounter both the evil inhabitants of this world and amusing little monsters. Every step requires caution, as even friendly faces might eye your treasures. You haven't seen many interesting cards yet. If you're ready for all this - onward to adventure! The party begins with you as an ordinary youth, without a profession. Don't be upset because, from the very beginning, you can obtain valuable items, become a mage, thief, warrior, or cleric.",
+    "news": "In developing...",
+    "about": "Greetings, these are the game developers. Creating this project took dozens of hours and thousands of nerve cells."
+  },
+  "gag": {
+    "home": "\"Keltainen Nola\" - bu ölgen şahmatlaştıru oyunu, DND elementterimen jobalanğan ortanıñ ortasında jasalğan ortalıq qartar oyunı, demek, fantastïkalıq rasalar-men, monsıtrlar-men qwıstew, sırtqı qezenqerde qarapayım jatalardan, joldas jasaw jañe jeñu! Bul fentezi janrındağı oyun, jattığw jatpaytın júrısınde menmeni jatasaw qatarınan atılımış monsıtrlar-men qesdesedi, jattığw adamdardy jatasaw, jañe közge túsqanında, köptegen turaktarında twra bólwı twııs. Sızdıñ közge túsıtıñ qızıwşy qartalarıdı körgen bolma. Äğer sız barlığınandan mätinğe dayın bol",
+    "news": "İşleniwde...",
+    "about": "Rollarımız proyektte:\\nPM - Alisiya Asawalyuk\\nData Analyst - Edita Matvienko, Tamara Wusata\\nQA - Ivan Nenov, Pavlo Serman, Artem Slabiy, Mykola Furman\\nBack-end Dev - Arseniy Zaykov, Oleksiy Skripnichenko\\nFront-End Dev - Artem Bogdanenko, Oleksiy Skripnichenko\\nGame Designers - Ivan Kushnirenko, Tamara Wusata\\nSound Designers - Nikita Bogorosh, Artur Basyuk, Oleksandr Muravtsev\\nDesigners - Yuliya Karanfilova, Maria Kravchenko, Alisiya Asawalyuk, Maksim Zhosan\\nStory - Oleksandr Muravtsev, Nikita Bogorosh, Mykola Furman, Ivan Kushnirenko\\nUdaçı wam w proektte! Eğer sorğın bar yada kömek gereq bolsa, azatça sor.\\nBiz bilän ayırylyp durmağa bar.\\n\\nDla svazi s namı:\\nEmai - keltainen_Nol@agmail.com\\nDiscord - https://discord.gg/MdFBWFwz"
+  }
+}

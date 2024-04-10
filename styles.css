@@ -1,0 +1,54 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Змінений колір гіперпосилань на червоний */
+a {
+    color: red;
+}
+
+/* Змінений колір гіперпосилань при наведенні на них мишою */
+a:hover {
+    color: darkred;
+}
+
+#language-section {
+    margin: 20px;
+}
+
+/* Змінений колір тексту "вибрати мову" на чорний */
+#language {
+    padding: 5px;
+    color: black;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Додано стилі для відображення контенту сторінок */
+p {
+    margin-bottom: 15px;
+}

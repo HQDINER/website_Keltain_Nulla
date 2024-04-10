@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="language.js" defer></script>
+    <script src="aboutlanguage.js" defer></script>
+    <title id="page-title-about">Про нас</title>
+</head>
+
+<body>
+    <header>
+        <!-- Логотип гри -->
+        <img src="logo.jpg" alt="Логотип гри" style="position: absolute; top: 8px; left: 8px; width: 120px;">
+        
+        <h1 id="about-heading">Про нас</h1>
+        <nav>
+            <ul>
+                <li><a id="home-link" href="index.html">Головна</a></li>
+                <li><a id="news-link" href="news.html">Про гру</a></li>
+                <li><a id="about-link" href="about.html">Про нас</a></li>
+            </ul>
+        </nav>
+        <!-- Перенесено блок обрання мови в правий верхній куток -->
+        <section id="language-section" style="position: absolute; top: 10px; right: 20px;">
+            <label for="language">🌐</label>
+            <select id="language" onchange="changeLanguage()">
+                <option value="uk">Українська 🇺🇦</option>
+                <option value="en">English 🇬🇧</option>
+                <option value="gag">Gagauzca 🔴⚪️🔵</option>
+                <option value="pl">Polski 🇵🇱</option>
+                <option value="bl">Беларускі ⚪️🔴⚪️</option>
+                <option value="es">Español 🇪🇸</option>
+                <option value="fr">Français 🇫🇷</option>
+                <option value="de">Deutsch 🇩🇪</option>
+                <option value="sk">Slovensky 🇸🇰</option>
+                <option value="cn">中文 🇨🇳</option>
+            </select>
+        </section>
+    </header>
+    <main>
+        <p id="about-content">
+            Цей проект розробляють студенти з групи кн 31 коледжу ВСП ФКЗІ ДУІТЗ.
+            <br><br>
+            Наші ролі у розробці проєкту:
+            <br>
+            PM - Алісія Асавалюк
+            <br>
+            Data-Analyst - Едіта Матвієнко, Вусата Тамара
+            <br>
+            QA - Ненов Іван, Павло Серман, Слабий Артем, Фурман Микола
+            <br>
+            Back-end Dev - Зайков Арсеній, Олексій Скрипніченко
+            <br>
+            Front-End Dev - Артем Богданенко, Олексій Скрипніченко
+            <br>
+            Game-Designers - Кушніренко Іван, Вусата Тамара
+            <br>
+            Sound Designers - Богорош Микита, Артур Басюк, Олександр Муравцев
+            <br>
+            Designers - Каранфілова Юлія, Кравченко Марія, Алісія Асавалюк, Жосан Максим
+            <br>
+            Story - Олександр Муравцев, Богорош Микита, Фурман Микола, Кушніренко Іван
+            <br><br>
+            З'вязатися з нами:
+            <br>
+            Електронна адреса - keltainen_Nola@gmail.com
+            <br>
+            <a id="discord-link" href="discord.html">Discord</a>
+        </p>
+    </main>
+</body>
+
+</html>
